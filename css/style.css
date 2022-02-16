@@ -1,0 +1,76 @@
+header, footer{
+    background-color: aqua;
+}
+main{
+    display: flex;
+    background-color: lightblue; 
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    width: 1200px;
+    margin: 0 auto;
+    right: auto;
+    left: auto;
+}
+html, body{
+    height: 100%;
+}
+aside{
+    background-color: rgb(0, 162, 255);
+    width: 200px;
+}
+.menu div{
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    block-size: 100px;
+}
+.logo{
+    text-align: center;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.flex-container{
+    display: flex;
+    background-color: bisque;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 25px;
+    flex-wrap: wrap;
+    
+}
+.flex-mama{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    background-color: blueviolet;
+    margin: 5px;
+}
+.tel, .address, .email {
+    text-align: center;
+}
